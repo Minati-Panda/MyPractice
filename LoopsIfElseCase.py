@@ -27,16 +27,16 @@ print(weekday(8))
 
 
 
-# input_price = int(input("Please enter the Price of the Product: "))
-# match input_price:
-#     case 100: amount = input_price - 20
-#     case 500: amount = input_price - 25
-#     case 700: amount = input_price - 35
-#     case 1000: amount = input_price - 100
-#     case 2000: amount = input_price - 300
-#     case 5000: amount = input_price - 700
-#
-# print("Final price of the Product is:", amount)
+input_price = int(input("Please enter the Price of the Product: "))
+match input_price:
+    case 100: amount = input_price - 20
+    case 500: amount = input_price - 25
+    case 700: amount = input_price - 35
+    case 1000: amount = input_price - 100
+    case 2000: amount = input_price - 300
+    case 5000: amount = input_price - 700
+
+print("Final price of the Product is:", amount)
 
 
 
